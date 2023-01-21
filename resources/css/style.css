@@ -1,0 +1,253 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    }
+    
+    html{
+        color:#ffff;
+    background-color: #ffff;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    text-align: right;
+    }
+
+    .row{
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    
+    header{
+        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/bg.jpg');
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    
+    .hero-text-box{
+        position: absolute;
+        width: 1140px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 25px;
+    }
+
+    .btn:link,
+.btn:visited,
+input[type=submit]{
+    display: inline-block;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-weight: 250;
+    border-radius: 300px;
+    transition: background-color 0.2s,border 0.2s,color 0.2s;
+
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit]{
+    background-color: #2196f3;
+    color: #ffff;
+    border: 1px solid #ffff;
+    margin-right: 25px;
+    padding-top: 25px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid #ffff;
+    color: #ffff;
+    padding-top: 25px;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]{
+    background-color: #2196f3;
+    padding-top: 25px;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active{
+    border: 1px solid #2196f3;
+    color: #ffff;
+    padding-top: 25px;
+}
+
+.btn-full:hover,
+.btn-full:active{
+    border: 1px solid #2196f3;
+    color: #ffff;
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top: 50px;
+}
+
+.main-nav li{
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: #ffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 90%;
+    transition: border-bottom 0.2s;
+    border-bottom: 2px solid transparent;
+    padding: 8px 0;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid #2196f3;
+}
+
+section{
+    padding: 80px 0;
+}
+
+h2{
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: #555;
+    
+}
+
+h2::after{
+    display: block;
+    height: 2px;
+    background-color: #2196f3;
+    content: ",";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+}
+
+.long-copy{
+    line-height: 145%;
+    width: 75%;
+    margin-left: 15%;
+    text-align: justify;
+    color: #555;
+}
+
+.tours-showcase{
+    list-style: none;
+    width: 100%;
+}
+
+.tours-showcase li{
+    display: block;
+    float: left;
+    width: 20%;
+}
+
+.tour-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.tour-photo img{
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    opacity: 0.7;
+}
+
+.tour-photo img:hover{
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+.clearfix{zoom:1}
+.clearfix::after{
+    content: ",";
+    clear: both;
+    display: block;
+    height: 0;
+visibility: hidden;
+}
+
+.secction-tour{
+    padding: 0;
+}
+
+
+.work-step{
+    margin-bottom: 50px;
+    margin-right: 25px;
+    color:#555;
+    text-align: justify;
+}
+
+.work-step div{
+    color: #555;
+    border: 4px solid #555;
+    display: inline-block;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    margin-right: 55px;
+    float: left;
+    font-size: 150%;
+}
+
+.work-step:last-of-type{
+    margin-bottom: 80px;
+}
+
+.steps-box:first-child{
+    padding-right: 3%;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.steps-box:last-child{
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.btn-app:link,
+btn-app:visited{
+    border: 0;
+}
+
+.btn-app img{
+    height: 70px;
+    width: auto;
+    margin-right: 20px;
+}
+
+.app-screen{
+    width: 100%;
+    
+}
